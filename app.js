@@ -31,7 +31,7 @@ app.use(session({
   secret: 'keyboard cat',
   resave: false,
   saveUninitialized: true,
-  cookie: { secure: false }
+  cookie: {}
 }))
 app.use(flash());
 app.use(methodOverride('_method'))
